@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio Elisya, berisi proyek dan pencapaian."
+    />
+    <meta name="theme-color" content="#073b55" />
+    <title>Elisya — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke konten</a>
+
+    <header class="site-header">
+      <nav class="nav-shell container" aria-label="Navigasi utama">
+        <a class="brand" href="#home" aria-label="Elisya, kembali ke beranda">
+          <span class="brand__mark" aria-hidden="true">e.</span>
+          <span>elisya<span class="brand__period">.</span></span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Buka menu navigasi"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-navigation">
+          <a class="nav-link" href="#about">Tentang</a>
+          <a class="nav-link" href="#projects">Proyek</a>
+          <a class="nav-link" href="#certificates">Sertifikat</a>
+          <a class="nav-cta" href="#contact">Hubungi saya</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__fish" aria-hidden="true">
+          <svg class="fish fish--one" viewBox="0 0 120 64" focusable="false">
+            <path
+              d="M21 32C36 12 69 9 91 28L113 14V50L91 36C69 55 36 52 21 32Z"
+            />
+            <circle cx="41" cy="27" r="2.4" />
+            <path d="M60 17C67 25 67 39 60 47" />
+          </svg>
+          <svg class="fish fish--two" viewBox="0 0 120 64" focusable="false">
+            <path
+              d="M21 32C36 12 69 9 91 28L113 14V50L91 36C69 55 36 52 21 32Z"
+            />
+            <circle cx="41" cy="27" r="2.4" />
+            <path d="M60 17C67 25 67 39 60 47" />
+          </svg>
+          <svg class="fish fish--three" viewBox="0 0 120 64" focusable="false">
+            <path
+              d="M21 32C36 12 69 9 91 28L113 14V50L91 36C69 55 36 52 21 32Z"
+            />
+            <circle cx="41" cy="27" r="2.4" />
+            <path d="M60 17C67 25 67 39 60 47" />
+          </svg>
+          <svg class="fish fish--four" viewBox="0 0 120 64" focusable="false">
+            <path
+              d="M21 32C36 12 69 9 91 28L113 14V50L91 36C69 55 36 52 21 32Z"
+            />
+            <circle cx="41" cy="27" r="2.4" />
+            <path d="M60 17C67 25 67 39 60 47" />
+          </svg>
+          <span class="bubble bubble--one"></span>
+          <span class="bubble bubble--two"></span>
+          <span class="bubble bubble--three"></span>
+          <span class="bubble bubble--four"></span>
+        </div>
+
+        <div class="container hero__content">
+          <div class="hero__copy">
+            <h1 id="hero-title">Hai, aku <span>Elisya.</span></h1>
+            <p class="hero__intro">
+              Di sini kamu bisa melihat proyek, proses belajar, dan
+              pencapaianku.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--coral" href="#projects"
+                >Jelajahi karyaku</a
+              >
+              <a class="text-link" href="#about">Tentang aku</a>
+            </div>
+          </div>
+          <div class="hero__portrait">
+            <img
+              src="assets/images/profile.jpg"
+              alt="Foto profil Elisya"
+              width="500"
+              height="500"
+            />
+            <span class="hero__portrait-note"></span>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about">
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+        </a>
+        <svg
+          class="hero__wave"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M0 60C180 100 260 19 460 42C657 65 730 111 932 78C1124 47 1277 18 1440 58V120H0V60Z"
+          />
+        </svg>
+      </section>
+
+      <section
+        class="section about-section"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="container about-layout">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow--blue"></p>
+            <h2 id="about-title">Tentang<br /><span>Elisya.</span></h2>
+          </div>
+          <div class="about-copy">
+            <p class="about-copy__lead">
+              Halo! Aku Elisya Herte Armadiva, biasa di panggil elisya, pada
+              halaman about kamu akan mengetahui beberapa tentang saya, saya
+              adalah seorang siswa dari SMK NEGERI 8 JEMBER, saya dari jurusan
+              Rekayasa Perangkat Lunak, saya berminat dalam bidang teknologi
+              informasi, dan saya memiliki pengalaman di pembelajaran ketika
+              menjelaskan code pada web saya, walaupun saya memiliki beberapa
+              sertifikat, jujur saja pengalaman dan pembelajaran pada it saya
+              sangat kurang dan saya masih ingin belajar lebih banyak lagi, saya
+              berharap pada saat pkl, saya menjadi siswa yang berkembang dan
+              mengenal coding dan pembelajaran it lebih banyak, untuk project
+              saya memiliki project tetapi tidak begitu banyak anda bisa melihat
+              nya pada halaman proyek saya.
+            </p>
+            <p></p>
+            <p class="about-copy__hint">
+          
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <p class="about-footnote"></p>
+        </div>
+      </section>
+
+      <section
+        class="section projects-section"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-topline">
+            <div class="section-heading">
+              <p class="eyebrow eyebrow--blue"></p>
+              <h2 id="projects-title">Proyek<br /><span>pilihan.</span></h2>
+            </div>
+            <p class="section-topline__description">
+              
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img
+                class="project-card__image"
+                src="assets/images/project-1.png"
+                alt="Pratinjau proyek pertama"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <div>
+                  <p class="project-card__category"></p>
+                  <h3>project laravel Company-profile</h3>
+                </div>
+                <p class="project-card__description">
+                  Project ini adalah project laravel yang saya buat untuk
+                  company-profile, project ini saya buat ketika saya belajar
+                  laravel, project ini memiliki beberapa fitur seperti CRUD,
+                  login, register, dan lain-lain.
+                  
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                class="project-card__image"
+                src="assets/images/project-2.png"
+                alt="Pratinjau proyek kedua"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <div>
+                  <p class="project-card__category"></p>
+                  <h3>project PHP-NATIVE MYSQL </h3>
+                </div>
+                <p class="project-card__description">
+                  Project ini adalah project PHP-NATIVE MYSQL yang saya buat
+                  untuk belajar PHP-NATIVE MYSQL, project ini memiliki beberapa
+                  fitur seperti CRUD, login, register, dan lain-lain.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                class="project-card__image"
+                src="assets/images/project-3.png"
+                alt="Pratinjau proyek ketiga"
+                loading="lazy"
+              />
+              <div class="project-card__body">
+                <div>
+                  <p class="project-card__category"></p>
+                  <h3>Project Lending-page </h3>
+                </div>
+                <p class="project-card__description">
+                  Project ini adalah project Lending-page yang saya buat untuk
+                  belajar HTML dan styling (css dan kombinasi bootstrap), project ini memiliki beberapa
+                  fitur seperti animasi, responsive, dan lain-lain.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section certificates-section"
+        id="certificates"
+        aria-labelledby="certificates-title"
+      >
+        <div class="container certificate-layout">
+          <div class="section-heading certificate-section-heading">
+            <p class="eyebrow eyebrow--light">PENCAPAIAN</p>
+            <h2 id="certificates-title">Sertifikat</h2>
+            <p class="certificate-intro">
+              Beberapa sertifikat dan pencapaian yang ingin saya bagikan.
+            </p>
+          </div>
+          <div class="certificate-grid">
+            <article class="certificate-card">
+              <img
+                class="certificate-card__image"
+                src="assets/images/certificate-1.jpeg"
+                alt="Foto sertifikat pertama"
+                loading="lazy"
+              />
+              <div class="certificate-card__meta">
+                <span class="certificate-card__badge">2nd Place</span>
+                <span class="certificate-card__scope">kabupaten</span>
+              </div>
+              <h3>Juara 2 Lomba podato Kategori Dewasa</h3>
+              <p class="certificate-card__description">
+                Lomba podato yang diadakan oleh PAC IPNU IPPNU Umbulsari
+                pada tanggal 23 November 2023, saya berhasil meraih juara 2
+                pada lomba tersebut.
+              </p>
+              <div class="certificate-card__footer">
+                <span>23 November 2023</span>
+                <span>PAC IPNU IPPNU Umbulsari</span>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <img
+                class="certificate-card__image"
+                src="assets/images/certificate-2.jpeg"
+                alt="Foto sertifikat kedua"
+                loading="lazy"
+              />
+              <div class="certificate-card__meta">
+                <span
+                  class="certificate-card__badge certificate-card__badge--muted"
+                  >1st Place</span
+                >
+                <span class="certificate-card__scope">sekolah</span>
+              </div>
+              <h3>Juara 1 Lomba Da'i</h3>
+              <p class="certificate-card__description">
+                Lomba Da'i yang diadakan oleh sekolah untuk memperingati maulid nabi pada tanggal 23 Agustus
+                2026, saya berhasil meraih juara 1 pada lomba tersebut.
+              </p>
+              <div class="certificate-card__footer">
+                <span>23 Agustus 2026</span>
+                <span>Sekolah</span>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <img
+                class="certificate-card__image"
+                src="assets/images/certificate-3.jpeg"
+                alt="Foto sertifikat ketiga"
+                loading="lazy"
+              />
+              <div class="certificate-card__meta">
+                <span
+                  class="certificate-card__badge certificate-card__badge--peach"
+                  ></span
+                >
+                <span class="certificate-card__scope"></span>
+              </div>
+              <h3>Nama sertifikat atau proyek</h3>
+              <p class="certificate-card__description">
+                saya berhasil mendapatkan sertifikat kompetensi pemrograman
+                yang menandakan keahlian dan kemampuan saya dalam bidang pemrograman tersebut,
+                 sertifikat ini saya dapatkan pada tanggal 7 juli 2026.
+              </p>
+              <div class="certificate-card__footer">
+                <span>7 juli 2026</span>
+                <span></span>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <img
+                class="certificate-card__image"
+                src="assets/images/certificate-4.jpeg"
+                alt="Foto sertifikat keempat"
+                loading="lazy"
+              />
+              <div class="certificate-card__meta">
+                <span
+                  class="certificate-card__badge certificate-card__badge--peach"
+                  >Peserta</span
+                >
+                <span class="certificate-card__scope">Kabupaten</span>
+              </div>
+              <h3>Lomba da'i kabupaten </h3>
+              <p class="certificate-card__description">
+                Lomba da'i kabupaten yang diadakan oleh kabupaten jember pada
+                tanggal 28 juni 2026, saya berhasil menjadi peserta pada
+                lomba tersebut.
+              </p>
+              <div class="certificate-card__footer">
+                <span>28 juni 2026</span>
+                <span>Kabupaten Jember</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container">
+          <div class="contact-content">
+            <p class="eyebrow eyebrow--blue">KONTAK</p>
+            <h2 id="contact-title">Ada yang ingin ditanyakan?</h2>
+            <p>Hubungi saya untuk pertanyaan atau kerja sama.</p>
+            <div class="social-links" aria-label="Media sosial Elisya">
+              <a
+                class="social-link"
+                href=" https://wa.me/6285707287064?s=t"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp Elisya"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.3-4.7a8.5 8.5 0 1 1 16.2-4Zm-8.5-6a6.4 6.4 0 0 0-5.5 9.7l.2.4-.8 2.7 2.8-.7.4.2A6.4 6.4 0 1 0 12 5.8Zm3.6 9.1c-.2-.1-1.2-.6-1.4-.7-.2-.1-.4-.1-.5.1l-.6.7c-.1.2-.3.2-.5.1a5.3 5.3 0 0 1-2.6-2.3c-.2-.3.2-.4.6-1 .1-.2 0-.3 0-.5l-.6-1.4c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.5.1-.7.3-.2.2-.8.8-.8 1.8s.8 2.1.9 2.2c.1.2 1.6 2.4 3.8 3.3 1.4.6 2 .6 2.7.5.4-.1 1.2-.5 1.4-1 .2-.5.2-.9.1-1-.1-.1-.3-.2-.5-.3Z"
+                  />
+                </svg>
+              </a>
+              <a
+                class="social-link"
+                href="https://www.instagram.com/accounts/messages_and_story_replies/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram Elisya"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle class="social-icon__dot" cx="17.7" cy="6.7" r="1" />
+                </svg>
+              </a>
+              <a
+                class="social-link"
+                href="https://www.tiktok.com/@erluna3?is_from_webapp=1&sender_device=pcwww.tiktok.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok Elisya"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M14.2 3.5h3.1c.2 1.8 1.2 3.4 3.2 4.1v3.2a8.4 8.4 0 0 1-3.2-1.2v6.2a5.8 5.8 0 1 1-5.8-5.8c.5 0 1 .1 1.5.2v3.3a2.6 2.6 0 1 0 1.2 2.2V3.5Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__columns">
+          <div class="site-footer__identity">
+            <a
+              class="brand brand--footer"
+              href="#home"
+              aria-label="Elisya, beranda"
+              >Elisya<span>.</span></a
+            >
+          
+          </div>
+          <nav class="site-footer__links" aria-label="Tautan footer">
+            <h2>Tautan</h2>
+            <a href="#home">Beranda</a>
+            <a href="#projects">Proyek</a>
+            <a href="#certificates">Sertifikat</a>
+          </nav>
+          <div class="site-footer__contact">
+            <h2>Hubungi saya</h2>
+            <a
+              class="site-footer__contact-link"
+              href="mailto:elisyaarmadiva@gmail.com"
+              >elisyaarmadiva@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="site-footer__copyright">
+          <p>
+            © <span id="current-year">2026</span> Elisya. Hak cipta dilindungi.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".nav-toggle");
+      const navigation = document.querySelector("#primary-navigation");
+
+      menuToggle.addEventListener("click", () => {
+        const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+        menuToggle.setAttribute(
+          "aria-label",
+          isExpanded ? "Buka menu navigasi" : "Tutup menu navigasi",
+        );
+        navigation.classList.toggle("nav-menu--open", !isExpanded);
+      });
+
+      navigation.addEventListener("click", (event) => {
+        if (event.target.closest("a")) {
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.setAttribute("aria-label", "Buka menu navigasi");
+          navigation.classList.remove("nav-menu--open");
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.key === "Escape" &&
+          menuToggle.getAttribute("aria-expanded") === "true"
+        ) {
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.setAttribute("aria-label", "Buka menu navigasi");
+          navigation.classList.remove("nav-menu--open");
+          menuToggle.focus();
+        }
+      });
+
+      document.querySelector("#current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
